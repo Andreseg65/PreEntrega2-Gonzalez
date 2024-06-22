@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ body{
+  background-color:#beefa9;
+ }
+.head{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head .menu ul{
+  padding: 20px 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+}
+.head .menu ul li{
+  list-style: none;
+}
+
+.head .menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.head .redes{
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  padding: 10px 20px;
+}
+
+.redes img{
+  width: 30px;
+  height: 30px;
+}
+
+.main{
+  display: inline-block;
+  padding: 20px;
+  margin-left: 70px;
+  border: 15px solid rgb(245, 253, 206);
+  background-image: url(../assets/images/Campo1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  width: 90%;
+  height: 700px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+}
+.main img{
+  width: 800px;
+  height:auto;
+  position:relative;
+  z-index: 2;
+ 
+}
+
+/*.main section div {
+  display: inline-block;
+  padding: 20px; /* Espacio entre la imagen y el borde 
+  border: 2px solid black; /* Borde alrededor del contenedor 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: sombra para mejor visualización 
+}
+
+.main section div img{
+  width: 800px;
+  display: block;
+}*/
+
+.main h1{
+  font-size: 700%;
+  color:rgb(245, 253, 206)
+  
+}
+
+.main a{
+  background-color: #6e3606;
+  color: white;
+  margin: 15px;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight:bolder
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+footer fieldset{
+  max-width: 200%;
+  margin: 10px;
+  border: #beefa9;
+}
+
+.suscribite{
+  margin-left: 30px;
+}
+footer p{
+  margin: 20px;
+  text-align: center;
+}
+footer form input{
+  margin: 5px;
+  margin-inline-start: 0;
+  
+}
