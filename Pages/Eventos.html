@@ -11,16 +11,34 @@
 <body>
  <!-- Header inicio -->
  <header class="head">
-    <nav class="menu">
-        <ul>
-            <li><a href='../Index.html'>Inicio</a></li>
-            <li><a href='../Pages/LaBanda.html'>La Banda</a></li>
-            <li><a href='../Pages/Escuchanos.html'>Escuchanos</a></li>
-            <li><a href='../Pages/Eventos.html'>Eventos</a></li>
-            <li><a href='../Pages/Contactanos.html'>Contactanos</a></li>
-        </ul>
-    </nav>
-   
+    <nav class="navbar navbar-expand-lg  bg-transparent fw-bold">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../Index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/LaBanda.html">La Banda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Escuchanos.html">Escuchanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Contactanos.html">Contactanos</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>  
+      
 <div class="redes">
     <a href="https://www.instagram.com/migretmusic/" target="_blank">
         <img src="../assets/icons/instagram1.png" >
@@ -39,35 +57,81 @@
 </header>
 <!-- header fin  -->
 
+
     <main>
-      <section>
-        <h1>+Eventos</h1>
-        <h2>Próximos eventos</h2>
-        <img src="../assets/images/Tour al sur.jpg" alt="Tour al su" width="500px">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta sint vero nisi optio nulla labore earum, veritatis corporis. Consequuntur reprehenderit ex necessitatibus nobis earum adipisci laudantium aliquid itaque vitae maxime.</p>
+      <h1 class="fw-bolder" >+Eventos</h1>
+      <h2>Próximos eventos</h2>
+      <section class="eventos">
+
+        <div class="contenedor-superior">
+          <img src="../assets/images/Tour al sur.jpg" class="img-fluid img-thumbnail" alt="Tour al sur" width="600px" height="600">
+        
+          <table class="table table-success table-stripedtable-responsive">
+           <thead>
+            <tr>
+              <th scope="col">Fecha</th>
+              <th scope="col">Evento</th>
+              <th scope="col">Lugar</th>
+            </tr>
+           </thead>
+          <tbody>
+            <tr>
+              <th scope="row"> 10/02/23 </th>
+              <td>Navio marino</td>
+              <td>Neuquén</td>
+            </tr>
+            <tr>
+              <th scope="row">11/02/23</th>
+              <td>Fauna Bar</td>
+              <td>Villa Pehuenia</td>
+            </tr>
+            <tr>
+              <th scope="row">12/02/23</th>
+              <td>La isla del aire</td>
+              <td>Moquehue</td>
+            </tr>
+            <tr>
+              <th scope="row">15/02/23</th>
+              <td>Muelle</td>
+              <td>Pehuenia</td>
+            </tr>
+            <tr>
+              <th scope="row">17/02/23</th>
+              <td>Patio Cervecero</td>
+              <td>Aluminé</td>
+            </tr>
+            <tr>
+              <th scope="row">19/02/23</th>
+              <td>La montania</td>
+              <td>Neuquén</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>  
+        <article class="text fw-light">
+           <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci deleniti architecto, amet consequuntur at commodi quidem placeat modi! Dignissimos eaque tempora aspernatur nostrum optio non cupiditate porro odio alias doloribus fugit in dolorem voluptates explicabo aliquid, dolor, consequatur quam libero? Dolor cupiditate non, aut debitis quos laboriosam? Optio, id accusamus molestias cupiditate voluptatibus impedit harum beatae, sint nemo magni placeat officiis quas dolorem possimus sit quis nam doloremque, quasi fuga. Quo corporis totam perspiciatis, natus vero eius soluta? Itaque enim sed quae quidem est dicta autem sit laborum. Veritatis, corporis ipsam voluptas consequatur doloribus eos cupiditate sit sequi vero ea.</p>
+        </article>
      </section>
+
     <!-- Container + row + col -->
      <section class="container">
         <div class="row">
+            <h2 class="text-warning bg-dark">Un poco de lo que pasó</h2>
         <!-- breakpoint - 12 columnas  -->
-            <div class="col-lg-3 col-md-3 col-sm-12">
-               <h2>Un poco de lo que pasó</h2>
+            <div class="col-lg-4 col-md-6 col-sm-12">
                <h3>Salas Tifón</h3>
-               <img src="../assets/images/Salas Tifon.jpg" alt="salastifon" width="300px" height="300">
-            
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aperiam laboriosam obcaecati laborum delectus voluptate animi soluta ducimus quisquam. Totam praesentium similique facere doloremque non itaque nam ex sint debitis!</p>
+               <img src="../assets/images/Salas Tifon.jpg" class="img-fluid" alt="salastifon" width="300px" height="300">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aperiam laboriosam obcaecati laborum delectus voluptate animi soluta ducimus quisquam. Totam praesentium similique facere doloremque non itaque nam ex sint debitis!</p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-             <h3>Creo Festival 2019</h3>
-             <img src="../assets/images/Creo2019.jpg" alt="Creo festival 2019" width="300px" height="300px">
-
-             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt magni, veritatis deserunt, perferendis at aperiam quis nobis libero laborum cupiditate, eaque nulla laboriosam quas amet dolores harum quod error. Modi.</p>
+            <div class="col-lg-4 col-md-3 col-sm-12">
+                <h3>Creo Festival 2019</h3>
+                <img src="../assets/images/Creo2019.jpg" class="img-fluid" alt="Creo festival 2019" width="300px" height="300px">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt magni, veritatis deserunt, perferendis at aperiam quis nobis libero laborum cupiditate, eaque nulla laboriosam quas amet dolores harum quod error. Modi.</p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-             <h3>Entrevista Radio Cantilo</h3>
-             <img src="../assets/images/Entrevista.jpg" alt="Entrevista" width="300" height="300px">
-
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, debitis accusantium. Maxime facere dolor suscipit voluptas sunt dolorem soluta natus, ducimus incidunt non repellendus, assumenda error obcaecati id, quisquam dignissimos.</p>
+            <div class="col-lg-4 col-md-3 col-sm-12">
+                <h3>Entrevista Radio Cantilo</h3>
+                <img src="../assets/images/Entrevista.jpg" class="img-fluid" alt="Entrevista" width="300" height="300px">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, debitis accusantium. Maxime facere dolor suscipit voluptas sunt dolorem soluta natus, ducimus incidunt non repellendus, assumenda error obcaecati id, quisquam dignissimos.</p>
             </div>
         </div>
      </section>

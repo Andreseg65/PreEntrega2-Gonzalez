@@ -3,16 +3,32 @@
     "development"
   ],
   "hints": {
+    "disown-opener": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off",
+        "frame-title": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "axe/language": [
+      "default",
+      {
+        "html-lang-valid": "off"
+      }
+    ],
     "axe/name-role-value": [
       "default",
       {
         "link-name": "off"
       }
     ],
-    "disown-opener": "off",
-    "axe/text-alternatives": "off",
-    "axe/forms": "off",
-    "axe/language": "off",
     "no-inline-styles": "off"
   }
 }

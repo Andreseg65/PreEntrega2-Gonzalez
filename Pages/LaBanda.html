@@ -12,16 +12,35 @@
 <body>
    <!-- Header inicio -->
    <header class="head">
-    <nav class="menu">
-        <ul>
-            <li><a href='../Index.html'>Inicio</a></li>
-            <li><a href='../Pages/LaBanda.html'>La Banda</a></li>
-            <li><a href='../Pages/Escuchanos.html'>Escuchanos</a></li>
-            <li><a href='../Pages/Eventos.html'>Eventos</a></li>
-            <li><a href='../Pages/Contactanos.html'>Contactanos</a></li>
-        </ul>
-    </nav>
-   
+    <!-- Menú sandwith bootstrap -->
+    <nav class="navbar navbar-expand-lg  bg-transparent fw-bold">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../Index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/LaBanda.html">La Banda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/Escuchanos.html">Escuchanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/Eventos.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/Contactanos.html">Contactanos</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>  
+
 <div class="redes">
     <a href="https://www.instagram.com/migretmusic/" target="_blank">
         <img src="../assets/icons/instagram1.png" >
@@ -41,18 +60,56 @@
 <!-- header fin  -->
  
 <!-- Main inicio  --> 
-    <main>
-        <h1>+La Banda</h1>
-        <img src="../assets/images/Dibujo combi.jpg" alt="combi" width="300px">
+<main>
+    <h1 class="fw-bolder">+La Banda</h1>
+  
+  <section class="grid-container">
+      <div class="grid-item" id="banda1">
+        <img class="img-fluid img-thumbnail" src="../assets/images/Dibujo combi.jpg" alt="combi">
+      </div> 
+
+      <div class="grid-item" id="banda2">
         <h2>Un poco de historia</h2>
-            <p>Migret es una banda de indie-electrónica de Sydney, Australia, que se formó en 2019. La banda está formada por la pareja de origen argentino Betsy y Fran.</p>
-    
-        <h3>Fran</h3>
-            <img src="../assets/images/fran.jpg" alt="campo 3" width="100">
-            <p>Múscio y compositor</p>
-        <h3>Betsy</h3>
-            <img src="../assets/images/Betsy fondo montaña.jpg" alt="betsy con los ojos cerrados" width="100px">
-            <p>Vos principal</p>
+        <p class="fw-light" >Migret es una banda de indie-electrónica de Sydney, Australia, que se formó en 2019. La banda está formada por la pareja de origen argentino Betsy y Fran. 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ratione molestias, veniam reiciendis deserunt minus dolor iusto qui voluptatibus quisquam sint, ullam dignissimos temporibus perspiciatis id animi illum dolorem fuga dolorum, quibusdam magnam placeat non veritatis inventore! Cupiditate distinctio animi, dolorum ea facere error maxime repudiandae praesentium, nemo dolores eum!</p>
+      </div>
+
+      <div class="grid-item" id="banda3">
+        <h3 class="display-4">Fran</h3>
+        <img class="img-fluid img-thumbnail" src="../assets/images/fran.jpg"  alt="campo 3" width="300">
+      </div>
+
+      <div class="grid-item" id="banda4">
+        <h2 class="display-5">Múscio y compositor</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet explicabo quis obcaecati doloribus commodi. Maxime earum natus ipsum corporis dolore veritatis sint fuga fugit qui commodi modi atque corrupti adipisci minus vel dolorum nulla, libero eveniet optio et nemo! Pariatur non adipisci nesciunt quaerat? Beatae reiciendis accusantium earum quod, ad blanditiis similique amet voluptate molestiae excepturi dignissimos sunt est perspiciatis? Repellendus quas mollitia deleniti explicabo inventore nisi rem totam. Labore, accusantium consectetur nemo totam ut dignissimos voluptas quam explicabo obcaecati adipisci incidunt reprehenderit porro deleniti officiis quo! Doloribus vitae ab voluptas, facilis sit itaque eos deleniti explicabo nisi sed amet.</p>
+      </div>
+
+      <div class="grid-item" id="banda5">
+        <h3 class="display-4">Betsy</h3>
+        <img class="img-fluid img-thumbnail" src="../assets/images/Betsy fondo montaña.jpg" alt="betsy con los ojos cerrados" width="300px">
+      </div>  
+
+      <div class="grid-item" id="banda6">
+        <h2 class="display-5">Vos principal</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur 
+          adipisicing elit. Eveniet explicabo quis obcaecati 
+          doloribus commodi. Maxime earum natus ipsum 
+          corporis dolore veritatis sint fuga fugit qui 
+          commodi modi atque corrupti adipisci minus vel 
+          dolorum nulla, libero eveniet optio et nemo! 
+          Pariatur non adipisci nesciunt quaerat? Beatae 
+          reiciendis accusantium earum quod, ad blanditiis 
+          similique amet voluptate molestiae excepturi 
+          dignissimos sunt est perspiciatis? Repellendus quas 
+          mollitia deleniti explicabo inventore nisi rem 
+          totam. Labore, accusantium consectetur nemo totam 
+          ut dignissimos voluptas quam explicabo obcaecati 
+          adipisci incidunt reprehenderit porro deleniti 
+          officiis quo! Doloribus vitae ab voluptas, facilis 
+          sit itaque eos deleniti explicabo nisi sed amet.</p>
+      </div>
+
+  </section>
         
     </main>
 <!-- Main fin  -->
